@@ -1,0 +1,43 @@
+@keyframes bounceIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(-30%);
+  }
+  90% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(200%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+}
+
+
+.logoContainer {
+  animation: bounceIn 1s ease-out; /* Adjust animation duration and easing as needed */
+}
+
+.FollowUsContainer {
+  animation: slideIn 1s ease-out;
+
+}
