@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="font_amaranth_sm text-white mx-4 font-bold text-lg">Discord</a>
 
 
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="font_amaranth_sm text-white mx-4 font-bold text-lg">Twitter</a>
+          <a href="https://twitter.com/WonkCoinSol" target="_blank" rel="noopener noreferrer" className="font_amaranth_sm text-white mx-4 font-bold text-lg">Twitter</a>
           {/* <button className="text-white ml-10" onClick={toggleNightMode}>
           {nightMode ? '🌙' : '☀️'}
         </button> */}
@@ -50,7 +50,7 @@ const Header: React.FC = () => {
             <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="font_amaranth_sm block text-white my-2 font-bold text-lg">Discord</a>
 
       
-            <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="font_amaranth_sm block text-white my-2  font-bold text-lg">Twitter</a>
+            <a href="https://twitter.com/WonkCoinSol" target="_blank" rel="noopener noreferrer" className="font_amaranth_sm block text-white my-2  font-bold text-lg">Twitter</a>
             {/* <button className=" font-bold text-white" onClick={toggleNightMode}>
           {nightMode ? 'Dark Mode 🌙' : 'Light Mode☀️'}
         </button> */}
