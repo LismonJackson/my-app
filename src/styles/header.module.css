@@ -1,0 +1,29 @@
+
+@keyframes ZoomIn {
+    0% {
+      transform: translateZ(200%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  
+  }
+
+
+.transitionSmooth {
+    animation: ZoomIn 1s ease-out;
+}
+
+.transitionHeight {
+    transition: all 1s ease-in-out;
+}
+
+@media (orientation: portrait){
+    .px_10 {
+        padding-left: 1rem/* 80px */;
+        padding-right: 1rem/* 80px */;
+    }
+    
+  }

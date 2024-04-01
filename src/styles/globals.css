@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Fontdiner+Swanky&family=Knewave&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -70,7 +74,185 @@
   * {
     @apply border-border;
   }
+  html,
   body {
     @apply bg-background text-foreground;
+    scroll-behavior: smooth;
+
+
   }
 }
+
+
+
+::-webkit-scrollbar {
+  width: 8px; 
+}
+
+
+::-webkit-scrollbar-track {
+  background: white; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #000; 
+  border-radius: 0px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333; 
+}
+
+@media (orientation: portrait) {
+  ::-webkit-scrollbar {
+    width: none; 
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: none; 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: none; 
+    border-radius: none; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: none; 
+  }
+}
+
+
+
+/* FONT DINER */
+
+.fontdiner_xl {
+  font-family: 'Fontdiner Swanky', cursive !important;
+  color: #fff; /* Hide the text color */
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; /* Apply the border effect using multiple shadows */
+  font-size: 9rem !important;
+}
+
+.fontdiner_lg {
+  font-family: 'Fontdiner Swanky', cursive !important;
+  color: #fff; /* Hide the text color */
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; /* Apply the border effect using multiple shadows */
+  font-size: 7em !important;
+
+}
+
+.fontdiner_md {
+  font-family: 'Fontdiner Swanky', cursive !important;
+  color: #fff; /* Hide the text color */
+  text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; /* Apply the border effect using multiple shadows */
+  font-size: 5em !important;
+
+}
+
+.fontdiner_sm {
+  font-family: 'Fontdiner Swanky', cursive !important;
+  color: #fff; /* Hide the text color */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Apply the border effect using multiple shadows */
+  font-size: 2em !important;
+  line-height: 1.2em !important;
+
+}
+
+
+/* FONT KNEWAVE */
+
+.font_knewave {
+  font-family: "Knewave", system-ui;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+
+.font_knewave_sm {
+  font-family: "Knewave", system-ui !important;
+  color: #fff; /* Hide the text color */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Apply the border effect using multiple shadows */
+  font-size: 2em !important;
+  line-height: 1.2em !important;
+
+}
+
+
+
+/* FONT AMARANTH */
+
+.font_amaranth {
+  font-family: "Amaranth", sans-serif !important;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.font_amaranth_sm {
+  font-family: "Amaranth", sans-serif !important;
+  color: #fff; /* Hide the text color */
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; /* Apply the border effect using multiple shadows */
+  font-size: 1.4em !important;
+  line-height: 1.2em !important;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .fontdiner_xl {
+    font-size: 6rem !important; /* Reduce font size for smaller screens */
+  }
+  .fontdiner_lg {
+    font-size: 4rem !important;
+  }
+  .fontdiner_md {
+    font-family: 'Fontdiner Swanky', cursive !important;
+    color: #fff; /* Hide the text color */
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; /* Apply the border effect using multiple shadows */
+    font-size: 4em !important;
+  
+  }
+}
+
+@media (max-width: 600px) {
+  .fontdiner_xl {
+    font-size: 5rem !important; /* Reduce font size for smaller screens */
+    
+  }
+  .fontdiner_lg {
+    font-size: 3rem !important;
+  }
+  .fontdiner_md {
+    font-family: 'Fontdiner Swanky', cursive !important;
+    color: #fff; /* Hide the text color */
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; /* Apply the border effect using multiple shadows */
+    font-size: 2.5em !important;
+  
+  }
+}
+
+
+@media (max-width: 400px) {
+  .fontdiner_xl {
+    font-size: 3rem !important; /* Reduce font size for smaller screens */
+  }
+  .fontdiner_lg {
+    font-size: 2rem !important;
+  }
+  .fontdiner_md {
+    font-family: 'Fontdiner Swanky', cursive !important;
+    color: #fff; /* Hide the text color */
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; /* Apply the border effect using multiple shadows */
+    font-size: 2em !important;
+  
+  }
+}
+

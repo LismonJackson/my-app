@@ -1,0 +1,38 @@
+.imageShadow {
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 1));
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 1));
+}
+
+
+.Image_responsiveMode_1 {
+  border: none;
+}
+
+
+.Image_responsiveMode_2 {
+  border: none;
+}
+
+
+
+
+@media (orientation: portrait){
+  .Image_responsiveMode_1 {
+    border: 10px dashed black;
+    margin: 40px 15px 10px 15px;
+    border-radius: 20px;
+  }
+
+  .Image_responsiveMode_2 {
+    margin: 40px 15px 10px 15px;
+    
+  }
+
+  
+  .portraitResponsive {
+      min-height: 100vh;
+      padding-top: 2rem; /* Equivalent to 8 units in the default configuration of Tailwind CSS */
+      padding-bottom: 2rem; /* Equivalent to 8 units in the default configuration of Tailwind CSS */
+    }
+  
+}
