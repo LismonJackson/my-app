@@ -19,13 +19,13 @@ const Header: React.FC = () => {
   return (
     <nav className="bg-black p-4">
       <div className={`flex items-center justify-between px-20 ${styles.px_10}`}>
-        <Link href="/main" className="font_amaranth_sm text-white font-bold text-lg">Home</Link>
+        <Link href="/main" className={`font_amaranth_sm ${styles.font_white} font-bold text-lg`}>Home</Link>
         <div className="hidden md:flex">
 
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="font_amaranth_sm text-white mx-4 font-bold text-lg">Discord</a>
+          <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className={`font_amaranth_sm ${styles.font_white} mx-4 font-bold text-lg`}>Discord</a>
 
 
-          <a href="https://twitter.com/WonkCoinSol" target="_blank" rel="noopener noreferrer" className="font_amaranth_sm text-white mx-4 font-bold text-lg">Twitter</a>
+          <a href="https://twitter.com/WonkCoinSol" target="_blank" rel="noopener noreferrer" className={`font_amaranth_sm ${styles.font_white} mx-4 font-bold text-lg`}>Twitter</a>
           {/* <button className="text-white ml-10" onClick={toggleNightMode}>
           {nightMode ? '🌙' : '☀️'}
         </button> */}
@@ -47,10 +47,10 @@ const Header: React.FC = () => {
       {showMenu && (
         <div className={`md:hidden mt-2 pl-4 ${styles.transitionSmooth}`}>
        
-            <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="font_amaranth_sm block text-white my-2 font-bold text-lg">Discord</a>
+            <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className={`font_amaranth_sm block ${styles.font_white} my-2 font-bold text-lg`}>Discord</a>
 
       
-            <a href="https://twitter.com/WonkCoinSol" target="_blank" rel="noopener noreferrer" className="font_amaranth_sm block text-white my-2  font-bold text-lg">Twitter</a>
+            <a href="https://twitter.com/WonkCoinSol" target="_blank" rel="noopener noreferrer" className={`font_amaranth_sm block ${styles.font_white} my-2 font-bold text-lg`}>Twitter</a>
             {/* <button className=" font-bold text-white" onClick={toggleNightMode}>
           {nightMode ? 'Dark Mode 🌙' : 'Light Mode☀️'}
         </button> */}

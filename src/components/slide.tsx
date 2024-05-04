@@ -8,16 +8,16 @@ const Slide = () => {
     <div className={styles.TickerWrap}>
       <div className={styles.Ticker}>
         <span className={styles.ItemCollection1}>
-          <span className={styles.Item}>$WONK ⚪ $WONK ⚪ $WONK ⚪ $WONK ⚪</span>
-          <span className={styles.Item}>$WONK ⚪ $WONK ⚪ $WONK ⚪ $WONK ⚪</span>
-          <span className={styles.Item}>$WONK ⚪ $WONK ⚪ $WONK ⚪ $WONK ⚪</span>
-          <span className={styles.Item}>$WONK ⚪ $WONK ⚪ $WONK ⚪ $WONK ⚪</span>
+          <span className={styles.Item}>$WONK 🟢 $WONK 🟢 $WONK 🟢 $WONK 🟢</span>
+          <span className={styles.Item}>$WONK 🟢 $WONK 🟢 $WONK 🟢 $WONK 🟢</span>
+          <span className={styles.Item}>$WONK 🟢 $WONK 🟢 $WONK 🟢 $WONK 🟢</span>
+          <span className={styles.Item}>$WONK 🟢 $WONK 🟢 $WONK 🟢 $WONK 🟢</span>
         </span>
         <span className={styles.itemCollection2}>
-          <span className={styles.Item}>$WONK ⚪ $WONK ⚪ $WONK ⚪ $WONK ⚪</span>
-          <span className={styles.Item}>$WONK ⚪ $WONK ⚪ $WONK ⚪ $WONK ⚪</span>
-          <span className={styles.Item}>$WONK ⚪ $WONK ⚪ $WONK ⚪ $WONK ⚪</span>
-          <span className={styles.Item}>$WONK ⚪ $WONK ⚪ $WONK ⚪ $WONK ⚪</span>
+          <span className={styles.Item}>$WONK 🟢 $WONK 🟢 $WONK 🟢 $WONK 🟢</span>
+          <span className={styles.Item}>$WONK 🟢 $WONK 🟢 $WONK 🟢 $WONK 🟢</span>
+          <span className={styles.Item}>$WONK 🟢 $WONK 🟢 $WONK 🟢 $WONK 🟢</span>
+          <span className={styles.Item}>$WONK 🟢 $WONK 🟢 $WONK 🟢 $WONK 🟢</span>
         </span> 
       </div>
     </div>

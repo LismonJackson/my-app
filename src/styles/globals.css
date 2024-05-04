@@ -188,22 +188,62 @@
 /* FONT AMARANTH */
 
 .font_amaranth {
-  font-family: "Amaranth", sans-serif !important;
+  /* font-family: "Amaranth", sans-serif !important; */
+  font-family: cursive;
   font-weight: 300;
   font-style: normal;
 }
 
 
-.font_amaranth_sm {
-  font-family: "Amaranth", sans-serif !important;
-  color: #fff; /* Hide the text color */
-  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; /* Apply the border effect using multiple shadows */
-  font-size: 1.4em !important;
+.font_amaranth_md {
+  /* font-family: "Amaranth", sans-serif !important; */
+  font-family: cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.6em !important;
   line-height: 1.2em !important;
 }
 
 
 
+.font_amaranth_sm {
+  /* font-family: "Amaranth", sans-serif !important; */
+  font-family: cursive;
+  font-weight: bold;
+
+  color: black; /* Hide the text color */
+   /* Apply the border effect using multiple shadows */
+  /* text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; */
+  font-size: 1.4em !important;
+  line-height: 1.2em !important;
+}
+
+
+.font_amaranth_Esm_b_200 {
+  /* font-family: "Amaranth", sans-serif !important; */
+  font-family: cursive;
+  font-weight: 100;
+
+  color: black; /* Hide the text color */
+   /* Apply the border effect using multiple shadows */
+  /* text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; */
+  font-size: 1.2em !important;
+  line-height: 1.2em !important;
+}
+
+
+
+.font_amaranth_Esm_w_200 {
+  /* font-family: "Amaranth", sans-serif !important; */
+  font-family: cursive;
+  font-weight: 100;
+
+  color: #fff; /* Hide the text color */
+   /* Apply the border effect using multiple shadows */
+  /* text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; */
+  font-size: 1.2em !important;
+  line-height: 1.2em !important;
+}
 
 
 @media (max-width: 768px) {

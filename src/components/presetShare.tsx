@@ -7,7 +7,7 @@ import styles from "../styles/animation.module.css";
 export function PresetShare() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
-  const walletAddress = "rsUXy4z6bTVB8eZ9qbRf11f37oEwPgwZExTDRxCqXrL";
+  const walletAddress = "Agci1515M1q85CnaX7Y2Rrq6rkMr1NiWVE3tYh9EdxXt";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(walletAddress);
@@ -27,16 +27,16 @@ export function PresetShare() {
 
   return (
     <div>
-      <button onClick={() => setIsModalOpen(true)} className="font_knewave bg-black text-white py-3 px-6 rounded-lg">
+      <button onClick={() => setIsModalOpen(true)} className="border border-slate-600	font_amaranth_Esm_w_200 bg-black text-white py-3 px-6 rounded-lg">
         Copy Wallet Address
       </button>
       {isModalOpen && (
-        <div className={`fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center ${styles.animation_modal}`} onClick={closeModal}>
+        <div className={`fixed top-0 left-0 w-full h-full bg-gray-400 bg-opacity-90 flex justify-center items-center ${styles.animation_modal}`} onClick={closeModal}>
           <div className="bg-black text-white p-8 rounded-lg relative" onClick={stopPropagation}>
             <button className="absolute top-2 right-2" onClick={closeModal}>
               <Cross1Icon className="w-6 h-6 mr-3 mt-2" />
             </button>
-            <h2 className="font_amaranth_sm text-xl font-bold mb-4">Send SOL to:</h2>
+            <h2 className="font_amaranth_Esm_w_200 text-xl font-bold mb-4">Send SOL to:</h2>
             <input
               type="text"
               value={walletAddress}
@@ -51,7 +51,7 @@ export function PresetShare() {
         </div>
       )}
       {isCopied && (
-        <div className={`font_amaranth_sm fixed top-0 left-0 right-0 bg-black text-white text-center py-2 animate-notification ${styles.animate_notification}`}>
+        <div className={`font_amaranth_Esm_w_200 fixed top-0 left-0 right-0 bg-black text-white text-center py-2 animate-notification ${styles.animate_notification}`}>
           Wallet address copied to clipboard!
         </div>
       )}

@@ -20,6 +20,11 @@
     transition: all 1s ease-in-out;
 }
 
+
+.font_white {
+  color: #fff;
+}
+
 @media (orientation: portrait){
     .px_10 {
         padding-left: 1rem/* 80px */;
